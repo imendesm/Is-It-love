@@ -1,0 +1,120 @@
+html body{
+    font-family: myFirstFont;
+    src: url(Satisfy-Regular.ttf);
+    background-image: url(aleatorio.jpg);
+    
+}
+
+nav{
+    background-color: rgb(122, 68, 77);
+}
+
+  
+.jumbotron{
+    background-color: rgb(236, 139, 236);
+    color:rgb(122, 68, 77);
+
+}
+
+.container{
+    float: right;
+    margin-top: -200px;
+    padding-left: 40px;
+}
+
+.plataforma{
+    margin-left: 500px;
+}
+
+.titulo{
+    padding-left: 50px;
+    color: rgb(231, 168, 179);
+    
+}
+
+.list-game{
+    background-color: rgb(245, 202, 243);
+    color: rgb(122, 68, 77);
+    border: rgb(122, 68, 77);
+
+}.media-body{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+#myFooter {
+    background-color: #000000;
+    color: rgb(204, 167, 190);
+    padding-top: 30px;
+    display: flex;
+}
+
+#myFooter .footer-copyright {
+    background-color: #723e5c;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color:rgb(204, 167, 190);
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color:rgb(204, 167, 190);
+}
+
+#myFooter a {
+    color: rgb(204, 167, 190);
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color:rgb(204, 167, 190);
+}
+
+#myFooter .btn {
+    color: rgb(204, 167, 190);
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
+.footer-copyright {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(202, 109, 164);
+}
