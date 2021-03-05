@@ -1,0 +1,20 @@
+html body{
+    font-family: myFirstFont;
+    src: url(Satisfy-Regular.ttf);
+    background-color: rgb(236, 139, 236);
+    
+}
+
+nav{
+    background-color: rgb(122, 68, 77);
+    margin-top: 50px;
+}
+
+label{
+    color:  rgb(236, 139, 236);
+}
+
+.footer-copyright {
+    color: rgb(51, 22, 41);
+    text-align: center;
+}
